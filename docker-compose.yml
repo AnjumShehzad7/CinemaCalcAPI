@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest # MySQL container
+    container_name: mysql_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: CinemaCalcDB
+      MYSQL_USER: cinema_user
+      MYSQL_PASSWORD: cinema_password
+    ports:
+      - "3306:3306" # Expose MySQL port
+    volumes:
+      - mysql_data:/var/lib/mysql # Persist MySQL data
+    networks:
+      - cinema_net
+
+volumes:
+  mysql_data:
+
+networks:
+  cinema_net:
