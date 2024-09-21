@@ -1,0 +1,37 @@
+# Ignore build directories and files
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+
+# Ignore NuGet package directories
+packages/
+*.nupkg
+
+# Ignore lock files and other temp files
+project.lock.json
+project.fragment.lock.json
+project.json
+
+# Ignore logs
+*.log
+
+# Ignore debug and release folders
+**/Debug/
+**/Release/
+
+# Ignore sensitive files
+appsettings.Development.json
+appsettings.Staging.json
+
+# Ignore IDE specific files (for Visual Studio, VS Code, etc.)
+.vscode/
+.idea/
+
+# Ignore generated files
+*.cache
+*.db
+*.sln.docstates
