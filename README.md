@@ -25,7 +25,7 @@ To run the project locally, follow these steps:
    ```
    dotnet run
    ```
-##### The API will be available at `http://localhost:5082`.
+##### The API will be available at `[https://localhost:5000];[http://localhost:5001]`.
 
 ## 2. The code structure is as follows:
 - **Controllers:** Contains `ExpenseController.cs` to handle all HTTP requests related to expenses.
