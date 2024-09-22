@@ -25,9 +25,9 @@ To run the project locally, follow these steps:
    ```
    dotnet run
    ```
-### The API will be available at `http://localhost:port`.
+##### The API will be available at `http://localhost:port`.
 
-## The code structure is as follows:
+## 2. The code structure is as follows:
 - **Controllers:** Contains `ExpenseController.cs` to handle all HTTP requests related to expenses.
 - **Data:** `CinemaCalcContext.cs` manages database interactions through Entity Framework.
 - **Models:** Defines the `Expense.cs` model.
